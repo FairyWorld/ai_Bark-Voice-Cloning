@@ -1,14 +1,17 @@
-## Bark Voice Cloning + Multi‑Model TTS / Voice Cloning / Voice Conversion (UI + Notebooks)
+## Bark Voice Cloning: One-Click Hub for Top Open-Source Voice Cloning Models
 
 **English (default)** | [**简体中文**](README_CN.md)
 
 ### Introduction
-This repo **started as a single Bark voice cloning project** and has evolved into a collection of **cutting-edge TTS / voice cloning / voice conversion** training & inference scripts (UI + Colab notebooks).
+This repository is a practical **one-click hub for leading open-source voice cloning, TTS, and voice conversion models**. It started as a Bark voice cloning project and has grown into a curated collection of state-of-the-art open-source audio generation workflows with ready-to-use Web UIs and Colab notebooks.
 
-It is a practical toolbox focused on:
+The goal is simple: users should be able to **click a notebook, run the setup, and immediately try advanced AI voice cloning technology** without assembling each model pipeline by hand.
+
+It is focused on:
 - A ready-to-run **Gradio Web UI** for **Bark** voice cloning + TTS + voice conversion.
-- A separate **Sambert UI** workflow for **Chinese (and bilingual) personal voice cloning** with data labeling → training → inference.
-- A curated set of **Colab/Jupyter notebooks** covering multiple cutting-edge TTS / VC pipelines (GPT-SoVITS, XTTS, VALL-E X, F5‑TTS, CosyVoice, OpenAI TTS + VC, etc.).
+- A separate **Sambert UI** workflow for **Chinese (and bilingual) personal voice cloning** with data labeling -> training -> inference.
+- A curated set of **one-click Colab/Jupyter notebooks** for top open-source TTS / VC pipelines, including GPT-SoVITS, XTTS, VALL-E X, F5-TTS, CosyVoice, OpenVoice, KNN-VC, NeuCoSVC, and more.
+- Reproducible entrypoints that help researchers, builders, and non-specialist users experience modern voice cloning models out of the box.
 
 ## What's inside (Key entrypoints)
 - **Bark Web UI**: `app.py`
@@ -68,6 +71,8 @@ More details: `sambert-ui/README.md`
 - `training/data.py`: text sourcing / filtering helpers
 
 ## Notebooks (Colab/Jupyter)
+Most notebooks are designed as **one-click Colab demos**: open the notebook, run the cells, and try the corresponding model with minimal local setup.
+
 ### Notebook organization
 Voice-related notebooks are grouped under:
 - `notebooks/tts/` (TTS / voice cloning)
